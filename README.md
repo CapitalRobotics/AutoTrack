@@ -7,6 +7,32 @@ AutoTrack is a comprehensive system for FTC robots that allows drivers to record
 ## Overview
 This system enables your FTC robot to **record movements and actions during TeleOp** and **replay them accurately in Autonomous mode**. By capturing all driver-controlled commands and re-executing them in Auto, you can replicate complex tasks without the need for extensive manual programming.
 
+
+## Get Started
+To get a Git project into your build:
+
+**Step 1.**  Add the JitPack repository to your build file
+Add it in your root build.gradle at the end of repositories:
+
+```gradle
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+**Step 2.** Add the dependency
+```gradle
+	dependencies {
+	        implementation 'com.github.CapitalRobotics:AutoTrack:Tag'
+	}
+```
+
+
+
 ---
 
 ## Key Features
