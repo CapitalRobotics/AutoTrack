@@ -1,5 +1,7 @@
 [![](https://jitpack.io/v/CapitalRobotics/AutoTrack.svg)](https://jitpack.io/#CapitalRobotics/AutoTrack)
 [![CodeQL Advanced](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/codeql.yml/badge.svg)](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/codeql.yml)
+![Java Version](https://img.shields.io/badge/Java-17-blue.svg)
+
 
 
 # AutoTrack
