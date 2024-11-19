@@ -35,7 +35,10 @@ Add it in your root build.gradle at the end of repositories:
 	}
 ```
 
+## Or View Auto and Teleop Directly
 
+To view auto and teleop templates for your project, [start here](https://github.com/CapitalRobotics/AutoTrack/tree/update/src/team)
+These templates provide the basic logic of AutoTrack as templates for your team, just add your teams hardweare implimentation.
 
 ---
 
