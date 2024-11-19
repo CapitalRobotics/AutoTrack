@@ -1,6 +1,8 @@
 [![](https://jitpack.io/v/CapitalRobotics/AutoTrack.svg)](https://jitpack.io/#CapitalRobotics/AutoTrack)
 [![CodeQL Advanced](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/codeql.yml/badge.svg)](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/codeql.yml)
 
+[![Java 11 CI](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/java11.yml/badge.svg)](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/java11.yml) [![Java 17 CI](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/java17.yml/badge.svg)](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/java17.yml) [![Java 20 CI](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/java20.yml/badge.svg)](https://github.com/CapitalRobotics/AutoTrack/actions/workflows/java20.yml)
+
 
 
 # AutoTrack
