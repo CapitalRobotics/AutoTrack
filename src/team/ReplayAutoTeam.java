@@ -13,7 +13,10 @@ import java.io.FileReader;
 /**
  * This template provides a framework for replaying recorded robot movements. 
  * Teams can fill in the specific motor and servo logic to suit their robot's configuration.
+ * @Author Capital Robotics FTC 14251
+ * @version 1.0.0
  */
+
 @Autonomous(name = "ReplayAutoTemplate")
 public class ReplayAutoTemplate extends com.qualcomm.robotcore.eventloop.opmode.LinearOpMode {
     private DcMotorEx frontRight, backRight, frontLeft, backLeft, armMotor;
