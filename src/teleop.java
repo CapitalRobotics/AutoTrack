@@ -61,16 +61,31 @@ public class TeleOp extends OpMode {
         telemetry.update();
     }
 
+//    @Override
+//    public void stop() {
+//        try (FileWriter file = new FileWriter("/sdcard/FIRST/movementLog.json")) {
+//            file.write(movementLog.toString());
+//            telemetry.addData("Status", "Movements saved to /sdcard/FIRST/movementLog.json");
+//        } catch (IOException e) {
+//            telemetry.addData("Error", "Failed to save movements: " + e.getMessage());
+//        }
+//        telemetry.update();
+//    }
+
     @Override
     public void stop() {
-        try (FileWriter file = new FileWriter("/sdcard/FIRST/movementLog.json")) {
+        try {
+            String filePath = hardwareMap.appContext.getFilesDir().getPath() + "/movementLog.json";
+            FileWriter file = new FileWriter(filePath);
             file.write(movementLog.toString());
-            telemetry.addData("Status", "Movements saved to /sdcard/FIRST/movementLog.json");
+            file.close();
+            telemetry.addData("Status", "Movements saved to " + filePath);
         } catch (IOException e) {
             telemetry.addData("Error", "Failed to save movements: " + e.getMessage());
         }
         telemetry.update();
     }
+
 
     private void mecanumDrive(double LSY, double LSX, double RSX) {
         int speed = 1600; // Motor speed
